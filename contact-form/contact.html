@@ -1,0 +1,153 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <title>Document</title>
+
+    <style>
+        header{
+      background: url(imgs/spaz.jpg);
+      background-size: cover;
+      background-position: center;
+      min-height: 200px;
+    }
+    .section{
+      padding-top: 4vw;
+      padding-bottom: 4vw;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="nav-wrapper transparent fixed">
+          <div class="container">
+            <a href="#" class="brand-logo">NIRVANA</a>
+            <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+              <i class="material-icons">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="#">Services</a></li>
+              <li><a href="#">What to Find</a></li>
+              <li><a href="#">Book a Sesssion</a></li>
+              <li><a href="#" class="tooltipped btn-floating btn-small brown darken-2" data-tooltip="Instagram">
+                <i class="fab fa-instagram"></i>
+              </a></li>
+              <li><a href="#" class="tooltipped btn-floating btn-small brown darken-2" data-tooltip="Facebook">
+                <i class="fab fa-facebook"></i>
+              </a></li>
+              <li><a href="#" class="tooltipped btn-floating btn-small brown darken-2" data-tooltip="Twitter">
+                <i class="fab fa-twitter"></i>
+              </a></li>
+            </ul>
+            <ul class="sidenav brown lighten-2" id="mobile-menu">
+              <li><a href="#">Services</a></li>
+              <li><a href="#">What To Find</a></li>
+              <li><a href="#">Book a Session</a></li>
+            </ul>
+    
+          </div>
+        </nav>
+      </header>
+    
+      <section class="section container" id="contact">
+        <div class="row">
+          <div class="col s12 l5">
+            <h2 class="brown-text darken-text-2">Book a Session</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi sunt deserunt quisquam et, nobis a voluptatem exercitationem soluta eligendi, repellendus quae minima molestias temporibus! Optio in magnam esse provident repellendus?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, recusandae maxime quam vero vitae veritatis minima repellendus saepe nostrum exercitationem voluptates provident sit dignissimos beatae velit repudiandae eaque consequuntur esse.</p>
+          </div>
+          <div class="col s12 l5 offset-l2">
+            <form action="">
+              <div class="input-field">
+                <i class="material-icons prefix">email</i>
+                <input type="email" id="email">
+                <label for="email">Your Email</label>
+              </div>
+              <div class="input-field">
+                <i class="material-icons prefix">message</i>
+                <textarea id="message" class="materialize-textarea"></textarea>
+                <label for="message">Special Request</label>
+              </div>
+              <div class="input-field">
+                <i class="material-icons prefix">calendar_today</i>
+                <input type="text" id="date" class="datepicker">
+                <label for="date">Pick A Date</label>
+              </div>
+              <div class="input-field">
+                <p>Requests...</p>
+                <p>
+                  <label>
+                    <input type="checkbox">
+                    <span>Spa</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input type="checkbox">
+                    <span>Sauna</span>
+                  </label>
+                </p>
+              </div>
+              <div class="input-field center">
+                <button class="btn">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+  
+      </div>
+
+      <footer class="page-footer brown darken-2">
+        <div class="container">
+          <div class="row">
+            <div class="col s12 l6">
+              <h5>About Us</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur facere odit laudantium, assumenda, quo quas autem aut possimus placeat, rem harum tempore eos nihil earum veritatis qui aperiam itaque culpa.</p>
+  
+            </div>
+            <div class="class col s12 l4 offset-l2">
+              <h5>Connect</h5>
+              <ul>
+                <li><a href="#" class="brown-text text-lighten-3">Facebook</a></li>
+                <li><a href="#" class="brown-text text-lighten-3">Instagram</a></li>
+                <li><a href="#" class="brown-text text-lighten-3">Twitter</a></li>
+                <li><a href="#" class="brown-text text-lighten-3">LinkedIn</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright brown darken-3">
+          <div class="container center-align">&copy; 2020 Nirvana</div>
+        </div>
+      </footer>
+
+
+
+
+
+
+
+
+    <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function(){
+        $('.sidenav').sidenav();
+        $('.tabs').tabs();
+        $('.datepicker').datepicker({
+        disableWeekends: false
+         });
+        $('.tooltipped').tooltip();
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,252 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <title>A-Z</title>
+  <style>
+    header{
+      background: url(imgs/mic.jpg);
+      background-size: cover;
+      background-position: center;
+      min-height: 200px;
+    }
+    .section{
+      padding-top: 4vw;
+      padding-bottom: 4vw;
+    }
+    .tabs.indicator{
+      background-color: brown;
+    }
+    .tabs .tab a:focus, .tabs .tab a:focus.active{
+      background: transparent;
+    }
+    @media screen and (max-width: 670px){
+      header{
+        min-height: 500px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- navbar -->
+  <header>
+    <nav class="nav-wrapper transparent fixed">
+      <div class="container">
+        <a href="#" class="brand-logo">A-Z</a>
+        <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#">Episodes</a></li>
+          <li><a href="#">Join the Conversation</a></li>
+          <li><a href="#">Feedback</a></li>
+          <li><a href="#" class="tooltipped btn-floating btn-small black darken-1" data-tooltip="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a></li>
+          <li><a href="#" class="tooltipped btn-floating btn-small black darken-1" data-tooltip="Facebook">
+            <i class="fab fa-facebook"></i>
+          </a></li>
+          <li><a href="#" class="tooltipped btn-floating btn-small black darken-1" data-tooltip="Twitter">
+            <i class="fab fa-twitter"></i>
+          </a></li>
+        </ul>
+        <ul class="sidenav white lighten-0" id="mobile-menu">
+          <li><a href="#">Episodes</a></li>
+          <li><a href="#">Join the Conversation</a></li>
+          <li><a href="#">Feedback</a></li>
+        </ul>
+
+      </div>
+    </nav>
+  </header>
+
+  <section class="section container">
+    <h2>Episodes</h2>
+    <div class="row">
+      <div class="col s12 l6">
+        <div class="card">
+          <div class="video-container responsive-video">
+            <iframe width="853" height="480" src="imgs/one.mp4" frameborder="0" allowfullscreen></iframe>
+          </div>              
+          <div class="card-content">
+              <span class="card-title">Everthing and Nothing</span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis aliquam orci. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+          </div>
+          <div class="card-action">
+              <a href="">Details</a>
+              <a href="">More Like This</a>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col s12 l6">
+        <div class="card">
+          <div class="video-container">
+            <iframe width="853" height="480" src="imgs/two.mp4" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <div class="card-content">
+            <span class="card-title">Beauty is Pain</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis aliquam orci. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+          </div>
+          <div class="card-action">
+            <a href="">Details</a>
+            <a href="">More Like This</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 l6">
+        <div class="card">
+          <div class="video-container">
+            <iframe width="853" height="480" src="imgs/three.mp4" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <div class="card-content">
+            <span class="card-title">Press Play</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis aliquam orci. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+          </div>
+          <div class="card-action">
+            <a href="">Details</a>
+            <a href="">More Like This</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col s12 l6">
+        <div class="card">
+          <div class="video-container">
+            <iframe width="853" height="480" src="imgs/four.mp4" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="card-content">
+          <span class="card-title">The Unusual</span>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis aliquam orci. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+        </div>
+        <div class="card-action">
+          <a href="">Details</a>
+          <a href="">More Like This</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- parallax -->
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="imgs/lax.jpg" alt="" class="responsive-img">
+    </div>
+  </div>
+
+  <!-- photo / grid -->
+  <section class="section container" id="conversation">
+    <h2>Join the Conversation</h2>
+
+    <div class="row">
+      <div class="col s12 l4">
+        <img src="imgs/sofa.jpg" alt="" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 offset-l1">
+        <h2 class="black-text text-darken-0">Relaxing</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 l4 offset-l1 push-l7">
+        <img src="imgs/code.jpg" alt="" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 offset-l1 pull-l5 right-align">
+        <h2 class="black-text text-darken-0">Tech</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 l4">
+        <img src="imgs/space.jpg" alt="" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 offset-l1">
+        <h2 class="black-text text-darken-0">What's Real?</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
+      </div>
+    </div>
+  </section>
+  
+  <!-- parallax -->
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="imgs/para.jpg" alt="" class="responsive-img">
+    </div>
+  </div>
+  <!-- contact form -->
+    <section class="section container" id="contact">
+      <div class="row">
+        <div class="col s12 l5">
+          <h2 class="black-text">Feedback</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi sunt deserunt quisquam et, nobis a voluptatem exercitationem soluta eligendi, repellendus quae minima molestias temporibus! Optio in magnam esse provident repellendus?</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, recusandae maxime quam vero vitae veritatis minima repellendus saepe nostrum exercitationem voluptates provident sit dignissimos beatae velit repudiandae eaque consequuntur esse.</p>
+        </div>
+        <div class="col s12 l5 offset-l2">
+          <form action="">
+            <div class="input-field">
+              <i class="material-icons prefix">email</i>
+              <input type="email" id="email"> 
+              <label for="email">Your Email</label>
+            </div>
+            <div class="input-field">
+              <i class="material-icons prefix">message</i>
+              <textarea id="message" class="materialize-textarea"></textarea>
+              <label for="message">Feedback</label>
+            </div>
+
+            <div class="input-field center">
+              <button class="btn black">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    
+  <!-- footer -->
+    <footer class="page-footer black">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 l6">
+            <h5>About Us</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur facere odit laudantium, assumenda, quo quas autem aut possimus placeat, rem harum tempore eos nihil earum veritatis qui aperiam itaque culpa.</p>
+
+          </div>
+          <div class="class col s12 l4 offset-l2">
+            <h5>Connect</h5>
+            <ul>
+              <li><a href="#" class="white-text">Facebook</a></li>
+              <li><a href="#" class="white-text">Instagram</a></li>
+              <li><a href="#" class="white-text">Twitter</a></li>
+              <li><a href="#" class="white-text ">LinkedIn</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright black brighten-1">
+        <div class="container center-align">&copy; 2020 A-Z</div>
+      </div>
+    </footer>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.sidenav').sidenav();
+      $('.materialboxed').materialbox();
+      $('.parallax').parallax();
+      $('.tabs').tabs();
+      $('.tooltipped').tooltip();
+    });
+  </script>
+</body>
+</html>
